@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elisad5791/frontend-project-lvl3.git"
+    "url": "git+https://github.com/AzamatAk/frontend-project-11"
   },
   "keywords": [],
-  "author": "",
+  "author": "AzamatAk",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/elisad5791/frontend-project-lvl3/issues"
+    "url": "https://github.com/AzamatAk/frontend-project-11/issues"
   },
-  "homepage": "https://github.com/elisad5791/frontend-project-lvl3#readme",
+  "homepage": "https://github.com/AzamatAk/frontend-project-11/edit/main/README.md",
   "devDependencies": {
     "css-loader": "^6.7.1",
     "eslint": "^8.12.0",
