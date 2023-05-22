@@ -11,8 +11,6 @@ Rss Reader – сервис для агрегации RSS-потоков, с п�
 ### Установка и запуск
 
 ```
-  git clone git@github.com:elisad5791/frontend-project-lvl3.git
-  cd frontend-project-lvl3
   make install
   make start
 ```
