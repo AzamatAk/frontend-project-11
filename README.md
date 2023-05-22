@@ -17,6 +17,7 @@ Rss Reader – сервис для агрегации RSS-потоков, с п�
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/AzamatAk/frontend-project-11/workflows/hexlet-check/badge.svg)](https://github.com/AzamatAk/frontend-project-11/actions) 
 [![Maintainability](https://api.codeclimate.com/v1/badges/caa0527e2f87443e64fd/maintainability)](https://codeclimate.com/github/AzamatAk/frontend-project-11/maintainability)
+[![CI](https://github.com/AzamatAk/frontend-project-11/actions/workflows/main.yml/badge.svg)](https://github.com/AzamatAk/frontend-project-11/actions/workflows/main.yml)
 
 ### Приложение
 
