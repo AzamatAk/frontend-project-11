@@ -5,19 +5,30 @@ import { uploadChannelFirst, listenChannels } from './upload.js';
 import createWatchedState from './renders.js';
 
 const app = (i18n) => {
-  const elements = {};
-  elements.form = document.getElementById('form-rss');
-  elements.input = document.getElementById('url');
-  elements.button = document.getElementById('add');
-  elements.feedback = document.getElementById('feedback');
-  elements.modalTitle = document.getElementById('modal-title');
-  elements.modalBody = document.getElementById('modal-body');
-  elements.modalLink = document.getElementById('modal-link');
-  elements.posts = document.getElementById('posts');
-  elements.content = document.getElementById('content');
-  elements.feeds = document.getElementById('feeds');
+  const elements = {
+    form: document.getElementById('form-rss'),
+    input: document.getElementById('url'),
+    button: document.getElementById('add'),
+    feedback: document.getElementById('feedback'),
+    modalTitle: document.getElementById('modal-title'),
+    modalBody: document.getElementById('modal-body'),
+    modalLink: document.getElementById('modal-link'),
+    posts: document.getElementById('posts'),
+    content: document.getElementById('content'),
+    feeds: document.getElementById('feeds'),
+  };
 
   const state = {
+    form: {
+      valid: true,
+      processState: 'filling',
+      processStateError: null,
+      feedback: null,
+    },
+    loadingProcess: {
+      status: null,
+      loadingProcessError: null,
+    },
     status: 'initial',
     channels: [],
     posts: [],

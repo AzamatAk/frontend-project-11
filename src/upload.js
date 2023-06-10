@@ -14,7 +14,7 @@ const addNewPosts = (posts, watchedState, channelId) => {
     const index = _.findIndex(watchedState.posts, (oldPost) => post.link === oldPost.link);
     if (index === -1) {
       post.channelId = channelId;
-      post.id = watchedState.posts.length;
+      post.id = _.uniqueId(watchedState.posts);
       watchedState.posts.push(post);
     }
   });
@@ -27,7 +27,7 @@ const uploadChannelFirst = (url, watchedState) => {
     .then((response) => {
       const { channelInfo, posts } = parseRss(response);
       channelInfo.url = url;
-      channelInfo.id = watchedState.channels.length;
+      channelInfo.id = _.uniqueId(watchedState.channels);
       watchedState.channels.push(channelInfo);
       addNewPosts(posts, watchedState, channelInfo.id);
       watchedState.status = 'success';
