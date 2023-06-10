@@ -21,4 +21,4 @@ Rss Reader – сервис для агрегации RSS-потоков, с п�
 
 ### Приложение
 
-[RSS Agregator](https://frontend-project-11-iota-ten.vercel.app)
+[RSS Agregator](https://frontend-project-11-zeta-fawn.vercel.app)
