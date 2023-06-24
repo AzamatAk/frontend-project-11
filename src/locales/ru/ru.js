@@ -1,12 +1,22 @@
-const translation = {
-  required: 'Не должно быть пустым',
-  url: 'Ссылка должна быть валидным URL',
-  notOneOf: 'RSS уже существует',
-  success: 'RSS успешно загружен',
-  show: 'Просмотр',
-  network: 'Ошибка сети',
-  parsing: 'Ресурс не содержит валидный RSS',
-  unknown: 'Неизвестная ошибка',
+export default {
+  ru: {
+    translation: {
+      feedback: {
+        notUrl: 'Ссылка должна быть валидным URL',
+        notRss: 'Ресурс не содержит валидный RSS',
+        loading: 'Идет загрузка',
+        isValid: 'RSS успешно загружен',
+        includYet: 'RSS уже существует',
+        netWorkError: 'Ошибка сети',
+        defaultError: 'Что-то пошло не так',
+      },
+      posts: {
+        header: 'Посты',
+        buttonShow: 'Просмотр',
+      },
+      feeds: {
+        header: 'Фиды',
+      },
+    },
+  },
 };
-
-export default translation;
